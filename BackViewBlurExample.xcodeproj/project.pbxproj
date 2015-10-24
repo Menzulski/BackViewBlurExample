@@ -15,6 +15,7 @@
 		BF56FCBB1BD0F3B5000256B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF56FCB91BD0F3B5000256B4 /* LaunchScreen.storyboard */; };
 		BF56FCC61BD0F3B5000256B4 /* BackViewBlurExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF56FCC51BD0F3B5000256B4 /* BackViewBlurExampleTests.m */; };
 		BF56FCD11BD0F3B5000256B4 /* BackViewBlurExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF56FCD01BD0F3B5000256B4 /* BackViewBlurExampleUITests.m */; };
+		BF56FCE01BD0FC9C000256B4 /* BackViewBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = BF56FCDF1BD0FC9C000256B4 /* BackViewBlur.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BF56FCCC1BD0F3B5000256B4 /* BackViewBlurExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackViewBlurExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF56FCD01BD0F3B5000256B4 /* BackViewBlurExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackViewBlurExampleUITests.m; sourceTree = "<group>"; };
 		BF56FCD21BD0F3B5000256B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF56FCDE1BD0FC9C000256B4 /* BackViewBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackViewBlur.h; sourceTree = "<group>"; };
+		BF56FCDF1BD0FC9C000256B4 /* BackViewBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackViewBlur.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BF56FCAF1BD0F3B4000256B4 /* AppDelegate.m */,
 				BF56FCB11BD0F3B4000256B4 /* ViewController.h */,
 				BF56FCB21BD0F3B4000256B4 /* ViewController.m */,
+				BF56FCDE1BD0FC9C000256B4 /* BackViewBlur.h */,
+				BF56FCDF1BD0FC9C000256B4 /* BackViewBlur.m */,
 				BF56FCB41BD0F3B4000256B4 /* Main.storyboard */,
 				BF56FCB71BD0F3B5000256B4 /* Assets.xcassets */,
 				BF56FCB91BD0F3B5000256B4 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				BF56FCB31BD0F3B4000256B4 /* ViewController.m in Sources */,
 				BF56FCB01BD0F3B4000256B4 /* AppDelegate.m in Sources */,
+				BF56FCE01BD0FC9C000256B4 /* BackViewBlur.m in Sources */,
 				BF56FCAD1BD0F3B4000256B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				BF56FCD71BD0F3B5000256B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF56FCD81BD0F3B5000256B4 /* Build configuration list for PBXNativeTarget "BackViewBlurExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				BF56FCDA1BD0F3B5000256B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF56FCDB1BD0F3B5000256B4 /* Build configuration list for PBXNativeTarget "BackViewBlurExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				BF56FCDD1BD0F3B5000256B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
